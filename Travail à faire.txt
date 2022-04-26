@@ -1,0 +1,13 @@
+Miss :
+
+Les icones "Contact"
+Pas de section Projet
+Les lorems un peu partout
+Pour télécharger son CV dans la section AM (about me)
+menu burger
+Scroll Apparition des éléments 
+
+
+RESPONSIVE
+
+Bonus : Animation du scroll car moche
