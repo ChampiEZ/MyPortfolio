@@ -22,72 +22,75 @@
 
     }
 
-
 // anim scroll
 
-.container{
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    background-image: url(img/bck.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow-x: hidden;
-    .v-slider-bloc{
-        font-size: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-bottom: 5px solid #333;
+    .container{
         height: 100vh;
-        scroll-snap-align: center;
-        img{
-            background-size: cover;
-        }
-    }
-}
-
-
-    // Home Section
-    .accueil{
-        h1{
-            font-size: 50px;
-            padding: 10px 25px;
-            height: 350px;
-        }
-        .media-container{
-            padding-left: 0px;
-            padding-top: 10px;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow-x: hidden;
+        .v-slider-bloc{
             display: flex;
             justify-content: center;
-        }
-        .btn{
-            margin-left: 0px;
-            display: flex;
-            justify-content: center;
-        }
-        .aBx{
-            width: 62%;
-            margin: 0 auto;
-            padding-top: 15vh;
-            text-align: center;
-            .arrow{
-                width: 100px;
-                height: 100px;
-                margin: 0 auto;
-                margin-top: 50px;
-                background-image: url(img/down-arrow.png);
+            align-items: center;
+            height: 100vh;
+            scroll-snap-align: center;
+            img{
                 background-size: cover;
             }
         }
     }
 
 
+    // Home Section
+
+
+    // About Me Section
+
+
+    .am{
+        grid-template-columns: auto;
+        .tBx{
+            grid-column-start: 1;
+            grid-column-end: 6;
+            grid-row-start: 1;
+            grid-row-end: 5;
+            margin-top: 200px;
+            margin: auto 10px;
+            padding: 60px 30px;
+        }
+        h2{
+            color: #000;
+            font-size: 1em; 
+        }
+        .swag{
+            border: red solid 1px;
+            width: auto;
+            margin-top: 0px;
+        }
+        .tit{
+            border: green 1px solid;
+            margin: 0 auto;
+        }
+
+    }
 
 
 
-// Section Contact
+
+
+
+
+
+
+
+
+
+
+    // Contact Section
 
     .contact{
         .content{

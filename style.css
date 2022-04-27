@@ -302,18 +302,15 @@ header ul a:hover {
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
-    background-image: url(img/bck.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     overflow-x: hidden;
   }
   .container .v-slider-bloc {
-    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 5px solid #333;
     height: 100vh;
     scroll-snap-align: center;
   }
@@ -321,35 +318,30 @@ header ul a:hover {
     background-size: cover;
   }
 
-  .accueil h1 {
-    font-size: 50px;
-    padding: 10px 25px;
-    height: 350px;
+  .am {
+    grid-template-columns: auto;
   }
-  .accueil .media-container {
-    padding-left: 0px;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
+  .am .tBx {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin-top: 200px;
+    margin: auto 10px;
+    padding: 60px 30px;
   }
-  .accueil .btn {
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
+  .am h2 {
+    color: #000;
+    font-size: 1em;
   }
-  .accueil .aBx {
-    width: 62%;
+  .am .swag {
+    border: red solid 1px;
+    width: auto;
+    margin-top: 0px;
+  }
+  .am .tit {
+    border: green 1px solid;
     margin: 0 auto;
-    padding-top: 15vh;
-    text-align: center;
-  }
-  .accueil .aBx .arrow {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    margin-top: 50px;
-    background-image: url(img/down-arrow.png);
-    background-size: cover;
   }
 
   .contact .content {

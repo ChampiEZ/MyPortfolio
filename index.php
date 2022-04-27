@@ -40,7 +40,7 @@
                 </div>
                 <div class="blocredi">
                     <a href="#trois">
-                        <p>Télécharger mon CV ici!</p>
+                        <p>Télécharger mon CV</p>
                         <img src="img/arrow.png" alt="arrow">
                     </a>
                 </div>
