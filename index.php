@@ -56,11 +56,7 @@
         <!-- Skills -->
         <section class="v-slider-bloc" id="trois">
 
-            <section class="skills-section my-skills" id="skills">
-                <h1 class="text-skills" data-aos="slide-up">Skills</h1>
-                <img src="https://raw.githubusercontent.com/Sacsam005/my_portfolio_website/0fc1dccb57e4a40e1751d695fbd5b8048fae6471/img/skills.svg"
-                    alt="Skills" data-aos="zoom-out">
-            </section>
+                    <h2><span class="swag">My Skills </span></h2>
 
             <section class="skills" id="skills">
                 <div class="max-width">
