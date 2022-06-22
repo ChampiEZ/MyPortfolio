@@ -13,7 +13,14 @@
 
 <body>
 
-
+ <header>
+        <div class="burger">
+        <div class="dash"></div>
+        <div class="dash"></div>
+        <div class="dash"></div>
+        <div class="dash"></div>
+        </div>
+ </header>
 
     <section class="container">
 
@@ -33,12 +40,13 @@
 
         <!-- About Me -->
         <section class="v-slider-bloc" id="deux">
+            <section class="enki">
 
             <div class="am">
                 <div class="tit">
                     <h2><span class="swag">About Me </span></h2>
                 </div>
-                <div class="blocredi">
+                <!-- <div class="blocredi">
                     <a href="#trois">
                         <p>Télécharger mon CV</p>
                         <img src="img/arrow.png" alt="arrow">
@@ -46,7 +54,7 @@
                 </div>
                 <div class="tBx">
                     <h1>lorem</h1>
-                </div>
+                </div> -->
             </div>
 
         </section>
@@ -209,7 +217,7 @@
         </section>
 
 
-
+        </section>
     </section>
 
     <script src="script.js"></script>

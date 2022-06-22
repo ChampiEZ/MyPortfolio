@@ -1,44 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
 
-.swag{
-    font-family: 'Water Brush', cursive;
-    display: grid;
-    text-align: center;
-    flex-direction: column-reverse;
-    font-size: 4em;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 100px;
-    opacity: 0.9;
-}
-
 .am{
-    background: url(img/bck.jpeg);
+    // background-color: rgb(138, 135, 135);
     background-size: cover;
-    display: grid;
+    display: flex;
     height: 100vh;
-    grid-template-columns: repeat(6, 1fr) ;
-    grid-template-rows: repeat(4, 1fr);
 
 
     .tBx{
         width: auto;
         height: 400px;
         background-color: #fff;
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 2;
-        grid-row-end: 5;
         margin-top: 100px;
         padding: 60px 30px;
-    }
-    .tit{
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 2;
     }
     .blocredi{
         width: auto;
@@ -49,10 +23,6 @@
         flex-direction: column;
         flex-wrap: nowrap;
         color: #000;
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 4;
-        grid-row-end: 5;
         z-index: 10000;
         cursor: pointer;
         a{
