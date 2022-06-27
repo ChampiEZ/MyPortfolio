@@ -13,28 +13,27 @@
 
 <body>
 
-<!-- menu burger -->
-<div class="menu">
-            <!-- Utilisation d'une checkbox -->
-            <input type="checkbox" id="hamburger">
-            <!-- Label de la checkbox -->
-            <label id="hamburger-logo" for="hamburger">☰</label>
-            <!-- Le reste du menu -->
-            <nav>
-                <a href="#un">Page d'accueil</a>
-                <a href="#deux">Information</a>
-                <a href="#trois">À propos</a>
-                <a href="#quatre">Contact</a>
-                <a href="#cinq">Contact</a>
-            </nav>
-        </div>
-    <section class="container">
 
-        
+    <!-- menu burger -->
+    <div class="menu">
+        <input type="checkbox" id="hamburger">
+        <label id="hamburger-logo" for="hamburger">☰</label>
+        <nav>
+            <a href="#un">Page d'accueil</a>
+            <a href="#deux">Information</a>
+            <a href="#trois">À propos</a>
+            <a href="#quatre">Contact</a>
+            <a href="#cinq">Contact</a>
+        </nav>
+    </div>
+
+<section class="container">
 
 
-        <!-- Home -->
-        <section class="v-slider-bloc" id="un" class="ouesh">
+
+
+    <!-- Home -->
+    <section class="v-slider-bloc" id="un" class="ouesh">
 
             <div class="home">
                 <img src="img/bg.jpg" id="bg">
@@ -43,14 +42,13 @@
                 <h2 id="textM">"Concentrez-vous sur ce qui <br> vous rend différent."</h2>
             </div>
 
-        </section>
+    </section>
 
 
-        <!-- About Me -->
-        <section id="deux" class="amS">
+    <!-- About Me -->
+    <section id="deux" class="amS">
 
             <div class="am">
-                <!-- <img src="img/file.png" alt=""> -->
                 <h2>About me</h2>
             </div>
 
@@ -78,7 +76,7 @@
                 </div>
             </div>
 
-
+    
             <div class="logoAm">
                 <div class="logoBx">
                     <img src="img/bdd.png" alt="">
@@ -101,105 +99,113 @@
                     <h4>Lorem ipsum</h4>
                 </div>
             </div>
-        </section>v>
+        </section>
 
-    </section>
 
 
 
     <!-- Skills -->
     <section class="v-slider-bloc" id="trois">
 
-        <h2><span class="swag">My Skills </span></h2>
 
-        <section class="skills" id="skills">
-            <div class="max-width">
-                <div class="skills-content">
-                    <div class="column left">
-                        <div class="text">My creative skills & experience</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto labore corrupti omnis
-                            totam,
-                            libero debitis fugit nulla accusantium repellat amet excepturi, facere, saepe
-                            praesentium.
-                            Aliquam provident voluptate ratione at distinctio.
-                            My creative skills & experience
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto labore corrupti
-                            omnis totam,
-                            libero debitis fugit nulla accusantium repellat amet excepturi, facere, saepe
-                            praesentium.
-                            Aliquam provident voluptate ratione at distinctio.</p>
-                        <a href="#">Read more</a>
+
+        <section class="prog">
+            <h2><span class="swag">My Skills </span></h2>
+            <br>
+            <div class="process-wrapper">
+                <div id="progress-bar-container">
+                    <ul>
+                        <li class="step step01 active">
+                            <div class="step-inner">HOME WORK</div>
+                        </li>
+                        <li class="step step02">
+                            <div class="step-inner">RESPONSIVE PART</div>
+                        </li>
+                        <li class="step step03">
+                            <div class="step-inner">Creative CREATIONS</div>
+                        </li>
+                        <li class="step step04">
+                            <div class="step-inner">TESTIMONIALS PART</div>
+                        </li>
+                        <li class="step step05">
+                            <div class="step-inner">OUR LOCATIONS</div>
+                        </li>
+                    </ul>
+
+                    <div id="line">
+                        <div id="line-progress"></div>
                     </div>
-                    <div class="column right">
-                        <div class="bars">
-                            <div class="info">
-                                <span class="infoS">HTML</span>
-                                <span class="infoS">90%</span>
-                            </div>
-                            <div class="line html"></div>
+                </div>
 
-                            <div class="info">
-                                <span class="infoS">CSS</span>
-                                <span class="infoS">70%</span>
-                            </div>
-                            <div class="line css"></div>
-                            <div class="info">
-                                <span class="infoS">JavaScript</span>
-                                <span class="infoS">60%</span>
-                            </div>
+                <div id="progress-content-section">
+                    <div class="section-content discovery active">
+                        <h2>HOME SECTION</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non
+                            fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper
+                            ex.
+                            Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros.
+                            Nullam
+                            porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et
+                            condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio,
+                            venenatis
+                            at ex a, lacinia suscipit orci.</p>
+                    </div>
 
-                            <div class="line js"></div>
-                            <div class="info">
-                                <span class="infoS">PHP</span>
-                                <span class="infoS">20%</span>
-                            </div>
-                            <div class="line php"></div>
-                            <div class="info">
-                                <span class="infoS">Adobe Suite</span>
-                                <span class="infoS">70%</span>
-                            </div>
-                            <div class="line mysql"></div>
+                    <div class="section-content strategy">
+                        <h2>GALLERY SECTION</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non
+                            fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper
+                            ex.
+                            Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros.
+                            Nullam
+                            porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et
+                            condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio,
+                            venenatis
+                            at ex a, lacinia suscipit orci.</p>
+                    </div>
 
-                        </div>
+                    <div class="section-content creative">
+                        <h2>Creative CREATIONS</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non
+                            fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper
+                            ex.
+                            Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros.
+                            Nullam
+                            porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et
+                            condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio,
+                            venenatis
+                            at ex a, lacinia suscipit orci.</p>
+                    </div>
+
+                    <div class="section-content production">
+                        <h2>TESTIMONIALS NOW</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non
+                            fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper
+                            ex.
+                            Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros.
+                            Nullam
+                            porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et
+                            condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio,
+                            venenatis
+                            at ex a, lacinia suscipit orci.</p>
+                    </div>
+
+                    <div class="section-content analysis">
+                        <h2>OUR LOCATIONS</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non
+                            fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper
+                            ex.
+                            Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros.
+                            Nullam
+                            porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et
+                            condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio,
+                            venenatis
+                            at ex a, lacinia suscipit orci.</p>
                     </div>
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
-
-
-
-
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Project -->
-    <section class="v-slider-bloc" id="quatre">
-        <h1>Bloc 4</h1>
-    </section>
-
-
-
-
 
 
 
@@ -227,7 +233,7 @@
                         <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
                         <div class="text">
                             <h3>Téléphone</h3>
-                            <p>07 67 77 93 50</p>
+                            <p>01 02 03 04 05</p>
                         </div>
                     </div>
                     <div class="box">
@@ -262,9 +268,7 @@
         </section>
     </section>
 
-
-    </section>
-    </section>
+</section>
 
     <script src="script.js"></script>
 

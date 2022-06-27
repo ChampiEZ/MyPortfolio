@@ -2,76 +2,76 @@
 
 
 
-.skills {
-    margin-top: 25vh;
-    padding: 0 80px;
-    .skills-content {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
+// .skills {
+//     margin-top: 25vh;
+//     padding: 0 80px;
+//     .skills-content {
+//         display: flex;
+//         flex-wrap: wrap;
+//         align-items: center;
+//         justify-content: space-between;
 
-        .column {
-            width: calc(50% - 30px);
-        }
+//         .column {
+//             width: calc(50% - 30px);
+//         }
 
-        .left .text {
-            font-size: 20px;
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
+//         .left .text {
+//             font-size: 20px;
+//             font-weight: 600;
+//             margin-bottom: 10px;
+//         }
 
-        .skills {
-            .skills-content .right .bars .infoS {
-                margin-top: 15px;
-            }
-        }
-    }
-}
+//         .skills {
+//             .skills-content .right .bars .infoS {
+//                 margin-top: 15px;
+//             }
+//         }
+//     }
+// }
 
 
-.skills .skills-content .right .info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+// .skills .skills-content .right .info {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+// }
 
-.skills .skills-content .right span {
-    font-weight: 500;
-}
+// .skills .skills-content .right span {
+//     font-weight: 500;
+// }
 
-.skills .skills-content .right .line {
-    height: 5px;
-    width: 100%;
-    background: lightgray;
-    position: relative;
-}
+// .skills .skills-content .right .line {
+//     height: 5px;
+//     width: 100%;
+//     background: lightgray;
+//     position: relative;
+// }
 
-.skills .skills-content .right .line::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: lightseagreen;
-}
+// .skills .skills-content .right .line::before {
+//     content: "";
+//     position: absolute;
+//     height: 100%;
+//     left: 0;
+//     top: 0;
+//     background: lightseagreen;
+// }
 
-.skills .skills-content .right .html::before {
-    width: 90%;
-}
+// .skills .skills-content .right .html::before {
+//     width: 90%;
+// }
 
-.skills .skills-content .right .css::before {
-    width: 70%;
-}
+// .skills .skills-content .right .css::before {
+//     width: 70%;
+// }
 
-.skills .skills-content .right .js::before {
-    width: 60%;
-}
+// .skills .skills-content .right .js::before {
+//     width: 60%;
+// }
 
-.skills .skills-content .right .php::before {
-    width: 20%;
-}
+// .skills .skills-content .right .php::before {
+//     width: 20%;
+// }
 
-.skills .skills-content .right .mysql::before {
-    width: 70%;
-}
+// .skills .skills-content .right .mysql::before {
+//     width: 70%;
+// }
