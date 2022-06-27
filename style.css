@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -179,58 +181,68 @@ body {
   background-color: linear-gradient(to top, blue, red);
 }
 
-header {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.menu {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 40px 100px;
-  z-index: 1000;
+  width: 0px;
+  z-index: 20000;
+}
+
+main {
+  margin-left: 50px;
+  width: 500px;
+  text-align: justify;
+}
+
+#hamburger {
+  display: none;
+}
+
+#hamburger-logo {
+  cursor: pointer;
+  background: black;
+  width: 200px;
+  display: block;
+  color: white;
+  text-align: right;
+  transform: translateX(-168px);
+  padding: 10px;
+}
+
+nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: 0.5s;
-  margin-bottom: 100px;
+  flex-direction: column;
+  background: black;
+  overflow: hidden;
+  width: 200px;
+  transform: translateX(-200px);
 }
-header .sticky {
-  background-color: #fff;
-  padding: 20px 100px;
+
+#hamburger-logo,
+nav {
+  transition: 0.7s;
 }
-header .sticky .logo {
-  color: #000;
+
+#hamburger:checked ~ #hamburger-logo,
+#hamburger:checked ~ nav {
+  transform: translate(0);
 }
-header .sticky ul li a {
-  color: #000;
-}
-header .logo {
-  color: #fff;
-  font-size: 24px;
+
+nav a {
+  color: white;
   text-decoration: none;
-  font-weight: 700;
-  letter-spacing: 2px;
+  padding: 10px;
 }
-header ul {
-  position: relative;
-  display: flex;
-  margin-right: 100px;
-}
-header ul li {
-  position: relative;
-  list-style: none;
-  margin-right: 50px;
-}
-header ul a {
-  position: relative;
-  display: inline-block;
-  margin: 0 15px;
-  color: #fff;
-  text-decoration: none;
-  opacity: 1;
-  transition: 0.5s;
-}
-header ul a:hover {
-  color: darkorange;
-  opacity: 0.5;
+
+nav a:hover {
+  background: #444;
 }
 
 .home {
@@ -396,47 +408,78 @@ header ul a:hover {
     font-size: 14px;
   }
 }
-.am {
-  background-size: cover;
-  display: flex;
+hr {
+  width: 70%;
+  margin: 25px auto;
+}
+
+.amS {
   height: 100vh;
+  margin: black 10px solid;
 }
-.am .tBx {
-  width: auto;
-  height: 400px;
-  background-color: #fff;
-  margin-top: 100px;
-  padding: 60px 30px;
+.amS img {
+  width: 75px;
 }
-.am .blocredi {
-  width: auto;
-  height: auto;
+.amS h2 {
+  text-align: center;
+  font-weight: 800;
+  margin-top: 15px;
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+.amS .am {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  color: #000;
-  z-index: 10000;
-  cursor: pointer;
-}
-.am .blocredi a {
-  color: #fff;
-  width: 60%;
-  display: flex;
+  padding: 35px 0;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.am .blocredi a:hover {
-  opacity: 0.8;
+.amS .desAm {
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.am .blocredi img {
-  width: 30%;
-  margin-bottom: 10px;
+.amS .desAm h3 {
+  font-size: 3.5em;
+  text-align: end;
+  font-weight: 400;
+  font-family: "Anek Latin", sans-serif;
+  /* border: green solid 1px; */
+  margin-right: 50px;
+  width: 35%;
 }
-.am .blocredi p {
-  color: #000;
+.amS .desBx {
+  height: 100%;
+  /* border: red solid 1px; */
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.amS .desBx .desTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #888;
+}
+.amS .logoAm {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25%;
+}
+.amS .logoAm .logoBx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.amS .logoAm h4 {
+  margin-top: 15px;
 }
 
 /* Skills section */
