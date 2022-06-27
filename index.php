@@ -20,9 +20,9 @@
         <label id="hamburger-logo" for="hamburger">☰</label>
         <nav>
             <a href="#un">Page d'accueil</a>
-            <a href="#deux">Information</a>
-            <a href="#trois">À propos</a>
-            <a href="#quatre">Contact</a>
+            <a href="#deux">A propos</a>
+            <a href="#trois">Parcours</a>
+            <a href="#quatre">Projet</a>
             <a href="#cinq">Contact</a>
         </nav>
     </div>
@@ -46,7 +46,7 @@
 
 
     <!-- About Me -->
-    <section id="deux" class="amS">
+    <section id="deux" class="v-slider-bloc amS">
 
             <div class="am">
                 <h2>About me</h2>
@@ -106,9 +106,6 @@
 
     <!-- Skills -->
     <section class="v-slider-bloc" id="trois">
-
-
-
         <section class="prog">
             <h2><span class="swag">My Skills </span></h2>
             <br>
@@ -208,6 +205,10 @@
     </section>
 
 
+    <!-- Projet -->
+    <section class="v-slider-bloc" id="quatre">
+
+    </section>
 
     <!-- Contact -->
     <section class="v-slider-bloc" id="cinq">
@@ -267,6 +268,31 @@
             </div>
         </section>
     </section>
+
+     <!-- footer section start -->
+     <footer id="footer" class="v-slider-bloc">
+
+        <div class="link">
+            <ul>
+                <li>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="follow"></div>
+
+
+    </footer>
+
+    <section id="copy-right">
+      <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
+        lorem ispum lorem ispum 2022 Powerd By <a href="#">lorem ispum</a> 
+
+
+      </div>
+
+    </section>
+    <!-- footer copy right section end -->
 
 </section>
 

@@ -1,20 +1,5 @@
-.prog h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 10%;
-    color:#333;
-    font-weight:700;
-    margin-top:125px;	 
-    text-align:center;
-    text-transform:uppercase;
-    letter-spacing:4px;
-    line-height:23px;
-  }
-  
-  /* --- Start progress bar --- */
-  
-  .process-wrapper {
+.prog {
+      .process-wrapper {
     margin:auto;
     max-width:1080px;
   }
@@ -183,3 +168,20 @@
       opacity:1;
     }
   }
+    h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10%;
+        color:#333;
+        font-weight:700;
+        margin-top:125px;	 
+        text-align:center;
+        text-transform:uppercase;
+        letter-spacing:4px;
+        line-height:23px;
+      }
+}
+  
+  /* --- Start progress bar --- */
+  
